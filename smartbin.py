@@ -9,10 +9,10 @@ GPIO.setup(trigger_pin,GPIO.OUT)
 GPIO.setup(echo_pin,GPIO.IN)
 now=datetime.datetime.now()
 dt=now.strftime(“%Y-%m-%d %H:%M:%S”)
-config={“apiKey”: “api-keyfromfirebase”,
-“authDomain”: “authDomainfromfirebase”,
-“databaseURL”: “databaseurl”,
-“storageBucket”: “storageBucket”}
+config={“apiKey”: “AIzaSyBBh31kyUTGYc6Rd8WKEPnWgVbtO_zzmxY”,
+“authDomain”: “project-3594d.firebaseapp.com”,
+“databaseURL”: “https://project-3594d.firebaseio.com/”,
+“storageBucket”: “project-3594d.appspot.com”}
 Def send_trigger_pulse():
                GPIO.output(trigger_pin,True)
                time.sleep(0.0001)
